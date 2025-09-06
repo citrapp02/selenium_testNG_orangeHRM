@@ -36,7 +36,7 @@ public class FirstTry {
             e.printStackTrace();
         }
 
-        WebElement username = driver.findElement(By.name("username"));
+        var username = driver.findElement(By.name("username"));
         username.sendKeys("admin");
     }
 
